@@ -26,7 +26,7 @@ namespace CrudDemo
         {
             services.AddControllersWithViews();
             services.AddDbContext<CrudDemoContext>(
-                options=> options.UseInMemoryDatabase(databaseName:"crudDemoDB")
+                options => options.UseInMemoryDatabase(databaseName: "crudDemoDB")
             );
         }
 
